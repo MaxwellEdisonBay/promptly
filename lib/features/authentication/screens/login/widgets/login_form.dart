@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:promptly/features/authentication/screens/signup/signup.dart';
 import 'package:promptly/utils/constants/sizes.dart';
 import 'package:promptly/utils/constants/text_strings.dart';
+import 'package:get/get.dart';
 
 class TLoginForm extends StatelessWidget {
   const TLoginForm({
@@ -62,10 +64,13 @@ class TLoginForm extends StatelessWidget {
           const SizedBox(
             height: TSizes.spaceBtwItems,
           ),
+
+          /// Create Account button
           SizedBox(
             width: double.infinity,
             child: OutlinedButton(
-                onPressed: () {}, child: const Text(TTexts.authSignUp)),
+                onPressed: () => Get.to(() => const SignupScreen()),
+                child: const Text(TTexts.authSignUp)),
           ),
           const SizedBox(
             height: TSizes.spaceBtwSections,
