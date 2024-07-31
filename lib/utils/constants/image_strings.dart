@@ -13,4 +13,8 @@ class TImages {
   static const String onboardingCollaborativeAnimation = 'assets/animations/lottie-collaborate-animation.json';
   static const String onboardingShareAnimation = 'assets/animations/lottie-share-animation.json';
   static const String onboardingWorkAndFunAnimation = 'assets/animations/lottie-work-and-fun-animation.json';
+
+  // App Images
+  static const String verifyEmailImage = 'assets/images/verify-email-image.png';
+  static const String successImage = 'assets/images/success-image.png';
 }

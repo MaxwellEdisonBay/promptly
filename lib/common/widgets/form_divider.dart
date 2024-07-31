@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:promptly/utils/constants/colors.dart';
-import 'package:promptly/utils/constants/text_strings.dart';
 import 'package:promptly/utils/helpers/helper_functions.dart';
 
 class TFormDivider extends StatelessWidget {
@@ -26,7 +25,7 @@ class TFormDivider extends StatelessWidget {
           ),
         ),
         Text(
-          TTexts.authOrSignInWith.toUpperCase(),
+          dividerText,
           style: Theme.of(context).textTheme.labelMedium,
         ),
         Flexible(

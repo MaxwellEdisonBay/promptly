@@ -1,6 +1,7 @@
 class TTexts {
 
   // -- GLOBAL TEXTS
+  static const String submit = "Submit";
 
   // -- Onboarding texts
   static const String onboardingTitle1 = "Pick your Topics";
@@ -32,5 +33,23 @@ class TTexts {
   static const String authSignupTCPart4 = "Terms of Use";
   static const String authSignupOrSignUpWith = "Or Sign Up With";
 
+  // Verify email screen
+  static const String verifyEmailTitle = "Verify your email address";
+  static const String verifyEmailBody = "The verification email has been sent to your mailbox. Please, proceed to the instructions to create your account.";
+  static const String verifyEmailContinueButton = "Continue";
+  static const String verifyEmailResendButton = "Resend Email";
+
+  // Account created screen
+  static const String accountCreatedTitle = "Your account has been created!";
+  static const String accountCreatedSubtitle = "You have successfully created a new account after the email verification.";
+  static const String accountCreatedContinueButton = "Start";
+
+  // Forget Password
+  static const String forgetPasswordTitle = "Forget Password";
+  static const String forgetPasswordSubtitle = "Don't worry, it's totally fine to forget the password. Please, enter your email so we can send you the recovery instructions.";
+
+  // Reset Password
+  static const String passwordResetTitle = "Password Reset Email Sent";
+  static const String passwordResetSubtitle = "We have just sent the email to you with the password reset instructions.";
 
 }
