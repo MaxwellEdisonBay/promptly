@@ -3,6 +3,12 @@ class TTexts {
   // -- GLOBAL TEXTS
   static const String submit = "Submit";
 
+  // Bottom Nav
+  static const String bottomNavHome = "Home";
+  static const String bottomNavCreate = "Create";
+  static const String bottomNavHistory = "History";
+  static const String bottomNavProfile = "Profile";
+
   // -- Onboarding texts
   static const String onboardingTitle1 = "Pick your Topics";
   static const String onboardingTitle2 = "Interact with Templates";

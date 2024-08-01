@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:promptly/features/authentication/screens/password_configuration/forget_password.dart';
 import 'package:promptly/features/authentication/screens/signup/signup.dart';
+import 'package:promptly/navigation/bottom_nav.dart';
 import 'package:promptly/utils/constants/sizes.dart';
 import 'package:promptly/utils/constants/text_strings.dart';
 import 'package:get/get.dart';
@@ -62,7 +63,7 @@ class TLoginForm extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
-                onPressed: () {}, child: const Text(TTexts.authSignIn)),
+                onPressed: () => Get.to(() => const BottomNav()), child: const Text(TTexts.authSignIn)),
           ),
           const SizedBox(
             height: TSizes.spaceBtwItems,
