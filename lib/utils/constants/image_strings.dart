@@ -17,4 +17,7 @@ class TImages {
   // App Images
   static const String verifyEmailImage = 'assets/images/verify-email-image.png';
   static const String successImage = 'assets/images/success-image.png';
+
+  // Categories images
+  static const String categoryFunIcon = 'assets/icons/categories/category-fun-icon.png';
 }

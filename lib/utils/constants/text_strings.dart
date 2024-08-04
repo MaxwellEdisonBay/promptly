@@ -2,6 +2,7 @@ class TTexts {
 
   // -- GLOBAL TEXTS
   static const String submit = "Submit";
+  static const String sectionHeaderDefault = "View All";
 
   // Bottom Nav
   static const String bottomNavHome = "Home";
@@ -61,4 +62,7 @@ class TTexts {
   // Home
   static const String homeAppBarTitle = "Home";
   static const String homeAppBarSubtitle = "Home items";
+  static const String homeSearchBarHint = "Search Templates";
+  static const String homeCategoriesSectionTitle = "Popular Templates";
+
 }
