@@ -58,4 +58,7 @@ class TTexts {
   static const String passwordResetTitle = "Password Reset Email Sent";
   static const String passwordResetSubtitle = "We have just sent the email to you with the password reset instructions.";
 
+  // Home
+  static const String homeAppBarTitle = "Home";
+  static const String homeAppBarSubtitle = "Home items";
 }
